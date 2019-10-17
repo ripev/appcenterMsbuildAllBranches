@@ -83,4 +83,4 @@ for ($i=0;$i -lt $jobsDetails.Count;$i++) {
 }
 
 Write-Output "Jobs details:"
-$jobsDetails
+$jobsDetails | Format-Table branch,result,duration,logsUri
